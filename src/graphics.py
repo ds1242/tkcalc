@@ -28,17 +28,3 @@ class Window:
         btn.place(x=x, y=y)
 
 
-class Buttons:
-    def __init__(self, width, height, button_text, win, button_command):
-        self.__root = Button(
-            win.__root,
-            text=button_text,
-            width=width,
-            height=height,
-            bg='lightgray',
-            fg='black',
-            font=('Arial',12),
-            justify='center',
-            command=button_command
-        )
-        self.__root.place(x=50,y=50)

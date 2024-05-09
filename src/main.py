@@ -1,5 +1,4 @@
-from graphics import Window, Buttons
-from tkinter import Tk, Button
+from graphics import Window
 
 def button_clicked():
     print('button clicked')
